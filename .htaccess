@@ -1,0 +1,4 @@
+# Pretty-URL friendly defaults. The app works without rewrite rules too,
+# since everything routes through index.php?page=...
+DirectoryIndex index.php
+Options -Indexes
